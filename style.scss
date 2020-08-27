@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   min-height: 100%;
   margin: 0;
   text-align: center;
@@ -27,6 +28,13 @@ a {
   &:hover {
     color: $yellow;
   }
+}
+
+.logo {
+  background: url('/assets/logo.png');
+  background-size: cover;
+  width: 600px;
+  height: 150px;
 }
 
 .annotation {

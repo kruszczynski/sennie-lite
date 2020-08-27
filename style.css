@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   min-height: 100%;
   margin: 0;
   text-align: center; }
@@ -17,6 +18,12 @@ a {
   text-decoration: none; }
   a:hover {
     color: #D3C118; }
+
+.logo {
+  background: url("/assets/logo.png");
+  background-size: cover;
+  width: 600px;
+  height: 150px; }
 
 .annotation {
   margin: 48px 0;

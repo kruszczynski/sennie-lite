@@ -2,6 +2,7 @@
 
 $light-black: #161615;
 $brown: #F0D6BF;
+$yellow: #D3C118;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 html {
@@ -22,13 +23,23 @@ body {
 a {
   color: $light-black;
   text-decoration: none;
+
+  &:hover {
+    color: $yellow;
+  }
 }
 
 .annotation {
   margin: 48px 0;
   font-weight: bold;
   font-family: Montserrat;
-  font-size: 16px/27px;
+  font-size: 24px;
+  line-height: 40px;
   letter-spacing: 3.2px;
   text-transform: uppercase;
+
+  @media screen and (min-width:768px) {
+    font-size: 16px;
+    line-height: 27px;
+  }
 }
